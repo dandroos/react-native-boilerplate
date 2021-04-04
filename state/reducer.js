@@ -1,7 +1,7 @@
 import { SET_COUNT, SET_SHOW_MENU } from "./types";
 
 const initialState = {
-  count: 0,
+  count: null,
   showMenu: false,
 };
 

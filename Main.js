@@ -13,7 +13,7 @@ import { Comfortaa_500Medium } from "@expo-google-fonts/comfortaa";
 import App from "./App";
 
 const Main = () => {
-  const [loaded, err] = useFonts({
+  const [loaded] = useFonts({
     appFont: Comfortaa_500Medium,
   });
 
